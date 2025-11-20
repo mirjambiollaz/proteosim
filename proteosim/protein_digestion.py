@@ -1,3 +1,5 @@
+import re
+
 enzyme_cleavage_patterns = {
     'LysC': r'(?<=K)',
     'LysN': r'(?=K)',
