@@ -8,15 +8,15 @@ version = "0.1.0"
 description = "This repository provides **Python-based educational tools** and exercises designed to teach concepts in **computational proteomics**. The primary focus is on **simulating realistic mass spectrometry data** and protein identification workflows for course instruction. This code is currently under **active development** and may undergo significant changes."
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Mirjam Biollaz", email = "mirjam.biollaz@stud.uni-heidelberg,de" }]
+authors = [{ name = "Mirjam Biollaz", email = "mirjam.biollaz@stud.uni-heidelberg.de" }]
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "pandas",
-    "mathplotlib",
+    "matplotlib",
     "pyteomics",
     "pytest", # Add all required dependencies
 ]
 
 [tool.setuptools.packages.find]
-include = ["proteosim"]
+include = ["proteosim*"]
